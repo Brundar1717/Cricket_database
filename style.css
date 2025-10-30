@@ -1,0 +1,105 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Styles for Team Details Page */
+
+/* Back button style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.back-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.team-details-container {
+  max-width: 700px;
+  margin: 30px auto;  /* center container horizontally + vertical spacing */
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center; /* center all text inside */
+}
+
+.team-details-container h1,
+.team-details-container h2 {
+  margin-bottom: 15px;
+}
+
+.team-stats p {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+.players-table {
+  margin: 20px auto 0;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.players-table th,
+.players-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.players-table th {
+  background-color: #f0f0f0;
+}
+.points-table-container {
+  max-width: 700px;      /* limit width */
+  margin: 30px auto;     /* center container horizontally */
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;    /* center the heading */
+}
+
+.points-table-container h2 {
+  margin-bottom: 15px;
+}
+
+.points-table {
+  width: 100%;           /* table takes full width of container */
+  border-collapse: collapse;
+  margin: 0 auto;        /* center table */
+  text-align: center;
+}
+
+.points-table th, .points-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.points-table th {
+  background-color: #f0f0f0;
+}
